@@ -37,6 +37,11 @@ https://docs.google.com/spreadsheets/d/1Bo23j4LG43xE5IBUTP1lQ_RmbJEwLqifP2JVQdO8
 * [Developer tools 101: IDE, Terminal, Docker, Codespaces, Terraform]()
     Description
 
+TO BE:
+- OSS tools: Airbyte (Meltano, Singer)
+- Sync modes: incremental, full-load, deduped history
+- How to implement your own ELT into target
+- Sources and target types (+ S3 file formats)
 
 ## DWH Basics
 
@@ -44,6 +49,15 @@ https://docs.google.com/spreadsheets/d/1Bo23j4LG43xE5IBUTP1lQ_RmbJEwLqifP2JVQdO8
 - Занятие 5. Аналитические движки (СУБД) для работы с данными.
 - Занятие 6. Знакомство с Data Build Tool.
 - Занятие 7. DWH powered by Clickhouse and dbt
+
+TO BE:
+- basic modeling principles + dbt introduction (jaffle shop)
+- analytics engines: key principles
+- dbt DAG, refs
+- DWH powered by Clickhouse and dbt
+- dbt: tests (data quality)
+- dbt: project, adapter, resource configs; dbt CLI (commands); materialization types (+ incremental)
+- dbt: node selection, 
 
 ## DWH Intermediate
 
@@ -58,6 +72,18 @@ https://docs.google.com/spreadsheets/d/1Bo23j4LG43xE5IBUTP1lQ_RmbJEwLqifP2JVQdO8
 - Занятие 16. Data Vault – 2.
 - Занятие 17. Data Vault – 3.
 
+TO BE:
+- dbt deep dive: jinja (macro showcase), variables, env vars, packages, hooks: https://www.getdbt.com/dbt-learn/lessons/intro-to-jinja/#4
+- dbt incremental models: https://www.getdbt.com/dbt-learn/lessons/incremental/#1
+- dbt snapshots: https://www.getdbt.com/dbt-learn/lessons/techniques-trade/#18
+- dbt: custom schemas, environments (dev, test, prod) target names behaviour (if prod then else)
+- Extending with modules: dbt utils showcase
+- dbt snapshots
+- SQL for analytics
+- Advanced modeling with dbtVault
+- dbt Cloud vs. dbt Core
+- Deployment: Airflow (Prefect, Dagster)
+
 ## Business Intelligence foundation
 
 - Занятие 18. BI: Обзор.
@@ -69,6 +95,14 @@ https://docs.google.com/spreadsheets/d/1Bo23j4LG43xE5IBUTP1lQ_RmbJEwLqifP2JVQdO8
 - Занятие 24. Разбор ДЗ – Конфигурация и развертывание BI-решения.
 - Занятие 25. Analytics: Продвинутые аналитические витрины.
 
+TO BE:
+- BI tools overview, purpose, features
+- dbt vs. BI (segregation): https://www.getdbt.com/dbt-learn/lessons/dbt-project-design/#74
+- BI deployment and configuration (Metbase, Superset)
+- Semantic layer: dbt Metrics, Cube.js
+- Common analytics patterns: KPI, Retention, Cohorts, GEO
+- Marketing analytics showcase
+
 ## DWH Advanced toolkit
 
 - Занятие 26. DWH: Advanced topics.
@@ -79,11 +113,22 @@ https://docs.google.com/spreadsheets/d/1Bo23j4LG43xE5IBUTP1lQ_RmbJEwLqifP2JVQdO8
 - Занятие 31. DWH: Machine Learning capabilities.
 - Занятие 32. Разбор ДЗ – Визуализация и дашбординг для аналитических витрин.
 
+TO BE:
+- Configuring CI + CD, --state and --defer
+- dbt Metadata: logging, dbt Artifacts
+- Writing your own dbt module
+- External + Semi-structured data
+- Reverse ELT, ML capabilities
+
 ## Case studies
 
 - Занятие 33. Разбор кейса: end-to-end solution.
 - Занятие 34. Разбор ДЗ – Advanced DWH: Configuring CI, dbt modules, External tables.
 - Занятие 35. Дальнейшее развитие навыков.
+
+TO BE:
+- Recap with showcase (case study)
+- Own project (or individual consultation)
 
 ## WIP About
 
